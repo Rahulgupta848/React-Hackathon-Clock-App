@@ -1,0 +1,29 @@
+.clock{
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(70, 35, 70);
+     align-items: center;
+}
+
+.clockheading{
+     color:rgb(233, 219, 233);
+     font-size: 40px;
+}
+
+.timer{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0px 0px 30px 0px;
+     width:200px;
+     text-align: center;
+     height:calc(25vh + 50px);
+     
+}
+.clocktimer{
+     font-size: 100px;
+     font-weight: bold; 
+     color:rgb(233, 219, 233);
+
+}

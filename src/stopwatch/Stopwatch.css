@@ -1,0 +1,48 @@
+*{
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.stopwatch{
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(70, 35, 70);
+     align-items: center;
+}
+.stopwatchheading{
+     color:rgb(233, 219, 233);
+     font-size: 40px;
+}
+.reset{
+     padding-left: 300px;
+}
+.resetbtn{
+     width:70px;
+     height:50px;
+     border-radius: 20px;
+     background-color: rgb(202, 182, 202);
+     border:none;
+     color:black;
+     font-size: 20px;
+     font-weight: bolder;
+}
+
+.watch{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap:10px;
+     align-items: center;
+     background-color: rgb(202, 182, 202);
+     margin: 0px 0px 30px 0px;
+     width:200px;
+     height:25vh;
+     border-radius: 50%;
+}
+.stopwatchtimer{
+     font-size: 30px;
+     font-weight: bold;
+}
+.startbtn{
+     border:none;
+     background-color: rgb(202, 182, 202);
+     font-size: 25px;
+}
